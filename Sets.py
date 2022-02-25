@@ -22,3 +22,7 @@ print (a)
 
 # Union & Intersection operations can be easily done on sets
 print (a.union(b))
+# output : {False, True, 2, 3, 4, 'lady gaga', 'pitbull', 'eminem', 'rahat'}
+print (a.intersection(b))
+# output : {True, 4, 'rahat'}
+
